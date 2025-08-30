@@ -1,3 +1,4 @@
+//9 y 10 son iguales
 const topologiaRed = {
 nodos: [
 { id: "A", tipo: "Router", ubicacion: "Planta 1" },
@@ -43,4 +44,5 @@ Object.entries(conexionesPorNodo).forEach(([nodo, cantidadConexiones]) => {
 
 console.log("Conexiones por nodo:", conexionesPorNodo);
 console.log("Nodos ordenados por número de conexiones:", nodosOrdenados);
+
 console.log("Sugerencias de optimización:", sugerencias);
